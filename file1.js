@@ -1,110 +1,82 @@
-//"use strict"
-// console.log("Hello world");
+// function validate(){
+//     var name=document.myform.name.value;
+//     var password=document.myform.password.value;
 
-// var firstName="Priyanshi";
-// console.log(firstName);
-
-// var firstName="Porwal";
-// console.log(firstName);
-
-// let firstName="Priyanshi";
-// console.log(firstName);
-
-// let firstName="Porwal";
-// console.log(firstName);
-
-// const pi=3.14;
-// console.log(pi*2);
-// pi=20;
-
-// let firstName="34";
-// console.log(firstName[7]);
-// console.log(firstName.length);
-// console.log(firstName.toUpperCase);
-// console.log(firstName.slice(1));
-// console.log(typeof firstName);
-// let num=3.62;
-// console.log(typeof num);
-// num=String(num)
-// num=num+"";
-// console.log(typeof num);
-// firstName=+firstName;
-// console.log(typeof firstName);
-
-// firstName=(Number)firstName;
-//console.log(typeof firstName);
-
-// let firstName="Priyanshi";
-// let lastName="Porwal";
-// console.log(firstName+lastName);
-// console.log(firstName.concat(lastName));
-
-// let num=34;
-// let num1="34"
-// console.log(num==num1);
-// console.log(num===num1);
-
-// let age;
-// if(age<20){
-//     console.log("Age ${age} less than 20");
-// }
-// else{
-//     console.log("More than 20");
+//     if(name==null || name=""){
+//         alert("Name cannot be null or empty");
+//         return false;
+//     }else if(password.length<6){
+//         alert("Password should be greater than 6 characters");
+//         return false;
+//     }    
 // }
 
-// for(let i=0;i<=9;i++){
-//     console.log(i);
+// function validate(){  
+//     var name=document.myform.name.value;  
+//     var password=document.myform.password.value;  
+      
+//     if (name==null || name==""){  
+//       alert("Name can't be blank");  
+//       return false;  
+//     } else if(password.length==0){
+//         alert("Please enter password");
+//         return false;
+
+//       }else if(password.length<6){  
+//       alert("Password must be at least 6 characters long.");  
+//       return false;  
+//       }  
+//     } 
+
+// function validate(){
+//     var firstPassword=document.myform.password.value;
+//     var secondPAssword=document.myform.password2.value;
+//     if(firstPassword!==secondPAssword){
+//         alert("Both the passwords are not same");
+//         return false;
+//     }
+
 // }
 
-
-// let i=0;
-// while(i<=9){
-//     console.log(i);
-//     i++;
+// function validate(){
+//     var num=document.myform.number.value;
+//     if(isNaN(num)){
+//         document.getElementById("numlock").innerHTML="Enter a numeric value only";
+//         return false;
+//     }
+//     return true;
 // }
 
-// let i=0
-// do{
-//     i++;
-//     console.log(i);
-// }while(i<=9);
-
-
-// let i;
-// prompt("Guess a number :");
-// if(i){
-//     console.log(i);
-//     console.log("Correct");
+// class Employee{
+    
+//     Employee(id,name){
+//         this.id=id;
+//         this.name=name;
+//     }
 // }
-// else{
-//     console.log("Very close");
-// }
-
-// let mixed=["hello",23,3.7,null,undefined];
-// console.log(mixed);
-// mixed.push("World");
-// console.log(mixed);
-// mixed.pop();
-// console.log(mixed);
-// mixed.shift();
-// console.log(mixed);
-// mixed.unshift("Hello");
+// var e1=new Employee(101,"Piya");
+// document.writeln(e1.name);
 
 
-const person={name:"Priyanshi",age:22}
-console.log(person);
-console.log(person.name);
-console.log(person["age"]);
 
 
-const Person={
 
-    name:"Priyanshi",
-    age: 22,
-    course: "Full time"
 
-}
-console.log(Person);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
